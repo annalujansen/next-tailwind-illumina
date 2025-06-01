@@ -24,14 +24,14 @@ const config = {
         quicksand: ["Quicksand", "sans-serif"]
       },
       colors: {
-        "color-1": "#D3502F",       // texto principal (coral queimado forte)
+        "color-1": "#D3502F",       
         "color-2": "#F5B567",
         "color-3": "#FFD9A0",
         "color-4": "#BFA2DB",
         "color-5": "#7C83FD",
-        "color-6": "#473E66",       // tom escuro elegante
-        "color-7": "#AC2E2E",       // texto de destaque/hover alternativo (vermelho profundo)
-        "color-7-hover": "#872424", // hover mais forte e escuro (bordô queimado)
+        "color-6": "#473E66",      
+        "color-7": "#AC2E2E",      
+        "color-7-hover": "#872424", 
         "bronze": "#CD7F32",
         "fundo-0": "#FFF8F1",
         "fundo-1": "#FFE3D8",

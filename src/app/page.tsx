@@ -1,9 +1,8 @@
 import ContactUs from "../components/Homepage/ContactUs/page";
 import { Home } from "../components/Homepage/Home";
-//import WhatsappLogo from "~/components/ui/whatsapp";
 import AboutUs from "../components/Homepage/AboutUs/page";
 import Services from "../components/Homepage/Services/page";
-import Packages from "../components/Homepage/Packages/page";
+//import Packages from "../components/Homepage/Packages/page";
 
 export default function Homepage() {
   return (
@@ -12,9 +11,8 @@ export default function Homepage() {
         <Home />
         <Services />
         <AboutUs />
-        <Packages />
+        {/* <Packages /> */}
         <ContactUs />
-        {/* <WhatsappLogo /> */}
       </div>
     </>
   );

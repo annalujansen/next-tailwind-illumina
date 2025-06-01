@@ -62,7 +62,7 @@ export default function Navbar() {
                         About Us
                     </Link>
                 </li>
-                <li>
+                {/*<li>
                     <Link
                         className="cursor-pointer transition delay-75 ease-in hover:text-color-1"
                         to="packages"
@@ -74,7 +74,7 @@ export default function Navbar() {
                     >
                         Packages
                     </Link>
-                </li>
+                </li>*/}
                 <li>
                     <Link
                         className="cursor-pointer transition delay-75 ease-in hover:text-color-1"
@@ -128,11 +128,9 @@ export default function Navbar() {
                                     duration={700}
                                     onClick={() => router.push("/#home")}
                                 >
-                                    <span className="text-color-2">{"{"}</span>
                                     <span className="transition delay-75 ease-in-out hover:[text-shadow:_0_0_5px_rgb(255_255_255_/_40%)]">
                                         illumina
                                     </span>
-                                    <span className="text-color-2">{"}"}</span>
                                 </Link>
                             </li>
                             <li className="mt-4">

@@ -32,6 +32,7 @@ export default function LogoHome() {
           <TypeAnimation
             cursor={false}
             className={CURSOR_CLASS_NAME}
+            style={{ fontSize: "52px", marginTop: "20px"}}
             sequence={[
               (el) => el!.classList.remove(CURSOR_CLASS_NAME),
               "",
